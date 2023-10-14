@@ -39,6 +39,7 @@ public class ClienteControllerTests {
     void quandoAdicionarPilotoRetornarSucesso(){
         Mockito.when(pilotoService.adicionaPiloto(pilotoEntrada)).thenReturn(ResponseEntity.status(HttpStatus.CREATED).body(pilotoSaida));
 
+        
     }
 
 }
