@@ -1,12 +1,12 @@
 package com.example.ClienteAplicacao.clientes.piloto.domain;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Setter
 @Getter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class PilotoSaida {
 
     private Long id;
